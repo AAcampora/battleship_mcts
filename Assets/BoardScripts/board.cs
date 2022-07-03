@@ -5,6 +5,7 @@ using UnityEngine;
 public class board : MonoBehaviour 
 {
     public Tiles[] boardValues;
+    public Tiles[] tileValues;
 
     public GameManager gameManager;
     public static int DEFAULT_BOARD_SIZE = 25;
